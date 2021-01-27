@@ -21,7 +21,5 @@ namespace CRUD_Produtos.Models.Produto
         public string Prd_imagem { get; set; }
         public int IdCategoria { get; set; }
 
-        public virtual Categoria Categoria { get; set; }
-
     }
 }

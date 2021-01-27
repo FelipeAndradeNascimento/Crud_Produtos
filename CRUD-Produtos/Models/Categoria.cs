@@ -17,7 +17,7 @@ namespace CRUD_Produtos.Models.Categoria
         public string Ctg_descricao { get; set; }
         public DateTime Ctg_dtCadastro { get; set; }
         
-        public List<Produto> Produtos { get; set; }
+        public List<ProdutoContext> Produtos { get; set; }
 
     }
 }
